@@ -1,0 +1,30 @@
+#define MAX_LEN 81
+#define MACRO_TABLE_SIZE 256
+#define SYMBOL_TABLE_SIZE 256
+
+#define MAX_LINE_LENGTH 81
+#define LEN_NAME 31
+#define LEN_NAME_INSTRUCTION 3
+#define RAM 256
+#define SIZE_WORD 14
+#define START_ADRESS 100
+#define CHECK_LINE 200
+
+#define ADDRESSIMG_METHOD_0 0
+#define ADDRESSIMG_METHOD_1 1
+#define ADDRESSIMG_METHOD_2 2
+#define ADDRESSIMG_METHOD_3 3
+
+#define COUNT_OP0 0 
+#define COUNT_OP1 1 
+#define COUNT_OP2 2 
+#define COUNT_OP3 3 
+#define COUNT_OP4 4 
+
+#define FIRST_LINE 1
+
+#define ARE 0
+
+
+
+

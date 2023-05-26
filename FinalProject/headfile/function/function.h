@@ -1,0 +1,17 @@
+#include "lexer.h"
+#include "memory.h"
+#include "preAssamler.h"
+#include "syntax_analiz.h"
+#include "assambler1.h"
+#include "filework.h"
+#include "firstRun.h"
+#include "secondRun.h"
+#include "line.h"
+#include "machincod.h"
+#include "BinaruTable.h"
+#include"macroTable.h"
+#include"creatData.h" 
+#include"symbolTabel.h"
+#include "lists.h"
+
+
