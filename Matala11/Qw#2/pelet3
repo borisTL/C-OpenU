@@ -1,0 +1,18 @@
+Enter a number:
+1234
+Enter a number of rottate :
+-100
+The number before shift:
+In basis 10 is: 1234
+In basis 8 is: 2322
+In basis 16 is: 4d2
+In basis 2 is: 00000000 00000000 00000100 11010010
+
+ Shift to the left on 100 positions
+
+ The number  after shift :
+In basis 10 is 19744 
+In basis 8 is 46440
+In basis 16 is 4d20
+In basis 2 is : 00000000 00000000 01001101 00100000 
+Finish

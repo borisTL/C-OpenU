@@ -1,0 +1,18 @@
+Enter a number:
+127
+Enter a number of rottate :
+-3
+The number before shift:
+In basis 10 is: 127
+In basis 8 is: 177
+In basis 16 is: 7f
+In basis 2 is: 00000000 00000000 00000000 01111111
+
+ Shift to the left on 3 positions
+
+ The number  after shift :
+In basis 10 is 1016 
+In basis 8 is 1770
+In basis 16 is 3f8
+In basis 2 is : 00000000 00000000 00000011 11111000 
+Finish

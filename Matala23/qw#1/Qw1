@@ -1,0 +1,9 @@
+QW1:sometimes right.
+
+in paragraph 7.5 in the book it says that stdin is usually associated with the keyboard, and stderr and stdout with the screen but stdin and stdout can be associated with files or fashionably connected directly to other programs as was written in paragraph 7.1
+
+QW2:sometimes right.
+Defining a variable as a static register can potentially improve the performance of your program by keeping the variable in a register, which is faster than accessing memory. However, the exact behavior depends on the implementation of the compiler, as the register allocation is done at compile time.
+Additionally, using the keyword "register" is a hint to the compiler, not a command, so the compiler may choose not to use a register for the variable if it determines that it is not beneficial for performance.
+It's worth noting that register variables have some limitations, such as, they cannot be a l-value and cannot be used in the address operator(&), also the number of registers available on a machine is limited, thus compilers may not always be able to allocate a register for a variable, even when you hint them to do so.
+

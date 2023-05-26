@@ -1,0 +1,11 @@
+Variable filling format:
+1.Without white letters before entering.
+2.Positive integer value.
+3.Not empty variables.
+4.In case of incorrect input, the program will give an error and finish the program.
+5.To end the input, you can press enter or 'ctrl D'.
+<***************************************************************************************************************************************************>
+
+Enter number of bytes to be compared:
+Enter first pointer :
+Enter second pointer :WRONG:SECOND POINTER IS NOT ENTER

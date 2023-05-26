@@ -1,0 +1,18 @@
+Hello
+1. Valid set names only: SETA, SETB, SETC, SETD, SETE, SETF.
+2. Valid opertaions only: read_set, print_set, union_set, intersect_set, sub_set,symdiff_set.
+3. Valid range of numbers: 0-127 inc.
+4. To perform read_set, input as follows:
+read_set <setname>,<number>,...,<number>,-1 <ENTER>
+Example: read_set SETA, 12, 13 ,14 ,-1
+5. To perform print_set, input as follows:
+print_set <setname><ENTER>
+Example: print_set SETA
+6. To perform union/intersect/sub_set/symdiff_set, input as follows:
+<operation> <setname1>,<setname2>,<setname3><ENTER>
+Example: intersect_set SETB, SETF, SETD
+NOTE: the same set can be used twice or 3 times in uni/inter/sub operations.
+7. To quit: stop<ENTER>
+
+
+~prompt: Error: no 'stop' command at EOF redirection.
