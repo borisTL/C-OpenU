@@ -169,7 +169,7 @@
 
   <ol>
     <li>An <strong>optional</strong> preceding <em>label</em>. e.g., <code>PLACE1: </code>.</li>
-    <li>A <em>directive</em>: <code>.data</code>, <code>.string</code>, <code>.struct</code>, <code>.entry</code>, or <code>.extern</code>.</li>
+    <li>A <em>directive</em>: <code>.data</code>, <code>.string</code>,  <code>.entry</code>, or <code>.extern</code>.</li>
     <li>Operands according to the type of the <em>directive</em>.</li>
   </ol>
 
@@ -193,9 +193,7 @@
 
   <p>This directive allocates memory cells for storing <strong>structs</strong>. The allocated memory cells are initialized with the values given in the operands. The format is as follows:</p>
 
-  <pre>
-  label1: .struct [initialValue] [, initialValue]...
-  </pre>
+ 
 
   <h3><code>.entry</code> Directive</h3>
 
@@ -411,7 +409,7 @@
     <td>........././/.</td>
   </tr>
 </table>
-      
+    <h1>.ent File </h1>    
   <table>
   <tr>
     <th>Symbol</th>
@@ -426,7 +424,26 @@
     <td>130</td>
   </tr>
 </table>
-
+</table>
+    <h1>.ext File </h1>    
+  <table>
+  <tr>
+    <th>Symbol</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>W</td>
+    <td>110</td>
+  </tr>
+  <tr>
+    <td>L3/td>
+    <td>115</td>
+  </tr>
+    <tr>
+    <td>W</td>
+    <td>115</td>
+  </tr>
+</table>
 </body>
 </html>
 
